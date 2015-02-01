@@ -8,21 +8,20 @@ The Klout APIs are pretty simple be a C# implementation will ease your work. I c
 ##How to use it?
 Get a Klout API key http://developer.klout.com/apps/mykeys
 The entry point is the Klout object so create a Klout object
-'''
+```
 var k = new Klout(key);
-'''
+```
 Then you might need to get the Klout identifier of your user. You can use any Klout.Identity*Async method depending on the information your currently have (Twitter Id, Google+ Id, etc.).
-'''
+```
 var identity = await k.IdentityAsync("danvy");
 Console.WriteLine(string.Format("Your Klout Id is {0}", identity.Id));
-'''
+```
 Once you have the Klout Id, you can keep it forever.
 Now you can call the other APIs such as UserAsync to get user informations
-'''
+```
 var user = await k.UserAsync(kloutId);
 Console.WriteLine(string.Format("Klout user nick={0} score={1}", user.Nick, user.Score.Score));
-            
-'''
+```
 A sample app with full source code is provided.
 
 ##What's new?
