@@ -4,6 +4,7 @@ The Klout API for C#
 ##Introduction
 Like it or hate it, there's not a lot of tool to measure your impact on social networks. Klout is one of those, check it on http://klout.com.
 The Klout APIs are pretty simple be a C# implementation will ease your work. I created a portable library so it should be usable for .NET 4.5, Window, Windows Phone, iOS and Android.
+It relies on Json.NET https://www.nuget.org/packages/Newtonsoft.Json and Microsoft HTTP Client Libraries https://www.nuget.org/packages/Microsoft.Net.Http
 
 ##How to use it?
 Get a Klout API key http://developer.klout.com/apps/mykeys
