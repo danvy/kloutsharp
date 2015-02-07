@@ -7,7 +7,8 @@ The Klout APIs are pretty simple be a C# implementation will ease your work. I c
 It relies on Json.NET https://www.nuget.org/packages/Newtonsoft.Json and Microsoft HTTP Client Libraries https://www.nuget.org/packages/Microsoft.Net.Http
 
 ##How to use it?
-Get a Klout API key http://developer.klout.com/apps/mykeys
+First, get a Klout API key http://developer.klout.com/apps/mykeys
+Then, add the KloutSharp NuGet package to your project https://www.nuget.org/packages/danvy.kloutsharp.lib/  
 The entry point is the Klout object so create a Klout object
 ```
 var k = new Klout(key);
