@@ -27,7 +27,9 @@ Console.WriteLine(string.Format("Klout user nick={0} score={1}", user.Nick, user
 A sample app with full source code is provided.
 
 ##What's new?
-1.0 Initial release. Supports all Klout API available on http://api.klout.com/v2/ on 2015-02-01
+1.0.3 Supports Windows Universal Platform
+
+1.0   Initial release. Supports all Klout API available on http://api.klout.com/v2/ on 2015-02-01
 
 ##Q&A
 #### Q: What are the validated platforms?
