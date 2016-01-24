@@ -1,4 +1,6 @@
 # KloutSharp
+
+[![Join the chat at https://gitter.im/danvy/kloutsharp](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/danvy/kloutsharp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 The Klout API for C# 
 
 ##Introduction
